@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://www.1001fonts.com/download/butter-chicken.zip');
+
+@font-face {
+    font-family: "butter-chicken";
+    src: url("../assets/fonts/butter-chicken/Butter\ Chicken.ttf");
+}
+
+@font-face {
+    font-family: "chalet-newyork";
+    src: url("../assets/fonts/chalet/Chalet-NewYorkNineteenSeventy-Regular.otf");
+}
+
+@font-face {
+    font-family: "inter";
+    src: url("../assets/fonts/inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+    scroll-behavior: smooth;
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+html{
+    overflow-x: hidden;
+
+}
+body {
+    background-color: #111;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #b4040f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #82030c;
+}

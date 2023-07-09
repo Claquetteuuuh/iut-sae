@@ -1,0 +1,159 @@
+section {
+    min-height: 120vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+section h2{
+    color: white;
+    font-family: "butter-chicken", "montserrat", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+section div:not(.light) {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    position: absolute;
+}
+
+section div img {
+    width: 50vw;
+}
+
+section div a {
+    text-decoration: none;
+    color: white;
+    font-family: 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+    z-index: -10;
+}
+
+
+section div a p {
+    margin-top: 10px;
+}
+
+section div:nth-child(1) {
+    animation: slide 16s ease infinite;
+    animation-delay: 0s;
+}
+
+section div:nth-child(2) {
+    animation: slide 16s ease infinite;
+    animation-delay: 4s;
+}
+
+section div:nth-child(3) {
+    animation: slide 16s ease infinite;
+    animation-delay: 8s;
+}
+
+section div:nth-child(4) {
+    animation: slide 16s ease infinite;
+    animation-delay: 12s;
+}
+
+.light {
+    z-index: -1;
+    background: transparent;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: calc(30vw / 4);
+    filter: blur(160px);
+}
+
+.light1 {
+
+    left: 70%;
+    top: 10%;
+    transform: translate(-50%, -0%);
+    background-color: #E10512;
+
+}
+
+.light2 {
+    right: 70%;
+    top: 50%;
+    transform: translate(50%, -0%);
+    background-color: #E10512;
+}
+
+.light3 {
+    right: 70%;
+    top: 10%;
+    transform: translate(50%, -0%);
+    background-color: #008000;
+}
+
+.light4 {
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -0%);
+    background-color: #008000;
+}
+
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        margin-left: 700px;
+    }
+
+    10% {
+        margin: 100px 0;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    20% {
+        margin-right: 700px;
+        opacity: 0;
+    }
+
+    100% {}
+}
+
+@media screen and (max-width: 1000px) {
+    section {
+        min-height: 100vh;
+        align-items: center;
+    }
+
+    section div a {
+        font-size: 200%;
+    }
+    section div img{
+        width: 85vw;
+    }
+
+    section div:not(.light) {
+        margin-top: -80px;
+    }
+
+    @keyframes slide {
+        0% {
+            opacity: 0;
+            margin-left: 700px;
+        }
+
+        10% {
+            margin: -80px 0 0 0;
+            opacity: 1;
+        }
+
+        20% {
+            margin-right: 700px;
+            opacity: 0;
+        }
+
+        100% {}
+    }
+}

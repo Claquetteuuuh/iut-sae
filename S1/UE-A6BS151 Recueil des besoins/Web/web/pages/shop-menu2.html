@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DK | Menu Etudiant</title>
+    <link rel="shortcut icon" href="./assets/logo/logo-rond.png" type="image/png">
+    <link rel="stylesheet" href="../src/global.css">
+    <link rel="stylesheet" href="../src/header.css">
+    <link rel="stylesheet" href="../src/footer.css">
+    <link rel="stylesheet" href="../src/shop-menus.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/logo/logo-horizontale.png" height="60" alt="Logo dream kebab with crous">
+            </a>
+
+            <ul>
+                <li class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="burger-content">
+                        <a class="nav-active" href="#menus">Menu</a>
+                        <a href="../pages/info.html">Information</a>
+                        <a href="../pages/horaires.html">Horaires</a>
+                    </div>
+                </li>
+                <li class="nav-active"><a href="#menus">Menu</a></li>
+                <li><a href="../pages/info.html">Information</a></li>
+                <li><a href="../pages/horaires.html">Horaires</a></li>
+            </ul>
+            <a href="../pages/menu.html"><img src="../assets/svg/caddie.svg" alt="caddie pour commander"></a>
+        </nav>
+    </header>
+    <section class="command">
+        <div class="container">
+            <input checked type="radio" name="img-switch" id="switch1">
+            <input type="radio" name="img-switch" id="switch2">
+            <input type="radio" name="img-switch" id="switch3">
+
+            <div class="menu-img-container">
+                <div class="light"></div>
+                <img class="img1 img" src="../assets/img/kebab-img2.png"
+                    alt="Kebab with french fries in the background">
+                <img class="img2 img" src="../assets/img/cola.jpg" alt="cola on a table">
+                <img class="img3 img" src="../assets/img/kebab-img3.png" alt="french fries">
+            </div>
+
+            <div class="label-container">
+                <label for="switch1">
+                    <img src="../assets/img/kebab-img2.png" alt="Kebab with french fries in the background">
+
+                </label>
+                <label for="switch2">
+                    <img src="../assets/img/cola.jpg" alt="cola on a table">
+
+                </label>
+                <label for="switch3">
+                    <img src="../assets/img/kebab-img3.png" alt="french fries">
+
+                </label>
+            </div>
+        </div>
+        <form>
+            <h1>Menu "etudiant" 6<span>€</span></h1>
+            <p>Le menu étudiant valable avec la carte étudiant comprends le kebab avec la boisson et les frites.</p>
+            <div class="checkbox-container">
+                <div>
+                    <h2>Ingrédient</h2>
+                    <div>
+                        <input type="checkbox" name="kebab" id="kebab">
+                        <label class="neumorphism" for="kebab">
+                            <span>---</span>
+                        </label>
+                        <label for="kebab">Kebab</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="salade" id="salade">
+                        <label class="neumorphism" for="salade">
+                            <span>---</span>
+                        </label>
+                        <label for="salade">Salade</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tomate" id="tomate">
+                        <label class="neumorphism" for="tomate">
+                            <span>---</span>
+                        </label>
+                        <label for="tomate">Tomate</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="oignon" id="oignon">
+                        <label class="neumorphism" for="oignon">
+                            <span>---</span>
+                        </label>
+                        <label for="oignon">Oignon</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="bacon" id="bacon">
+                        <label class="neumorphism" for="bacon">
+                            <span>---</span>
+                        </label>
+                        <label for="bacon">Bacon + 0.5€</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="cheddar" id="cheddar">
+                        <label class="neumorphism" for="cheddar">
+                            <span>---</span>
+                        </label>
+                        <label for="cheddar">Cheddar + 0.5€</label>
+                    </div>
+                </div>
+                <div>
+                    <h2>
+                        <span>S</span>auce
+                    </h2>
+                    <div>
+                        <input type="radio" name="sauce" id="ketchup">
+                        <label class="neumorphism" for="ketchup">
+                            <span>---</span>
+                        </label>
+                        <label for="ketchup">Ketchup</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="algerienne">
+                        <label class="neumorphism" for="algerienne">
+                            <span>---</span>
+                        </label>
+                        <label for="algerienne">Algerienne</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="biggi">
+                        <label class="neumorphism" for="biggi">
+                            <span>---</span>
+                        </label>
+                        <label for="biggi">Biggi</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="mayonnaise">
+                        <label class="neumorphism" for="mayonnaise">
+                            <span>---</span>
+                        </label>
+                        <label for="mayonnaise">Maness</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="bbq">
+                        <label class="neumorphism" for="bbq">
+                            <span>---</span>
+                        </label>
+                        <label for="bbq">BBQ</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="blanche">
+                        <label class="neumorphism" for="blanche">
+                            <span>---</span>
+                        </label>
+                        <label for="blanche">Blanche</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="samourai">
+                        <label class="neumorphism" for="samourai">
+                            <span>---</span>
+                        </label>
+                        <label for="samourai">Samouraï</label>
+                    </div>
+                </div>
+                <div>
+                    <h2>Boi<span>ss</span>on</h2>
+                    <div>
+                        <input type="radio" name="boisson" id="fuze-tea">
+                        <label class="neumorphism" for="fuze-tea">
+                            <span>---</span>
+                        </label>
+                        <label for="fuze-tea">Fuze tea</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="boisson" id="oasis">
+                        <label class="neumorphism" for="oasis">
+                            <span>---</span>
+                        </label>
+                        <label for="oasis">Wazisse</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="boisson" id="coca-cola">
+                        <label class="neumorphism" for="coca-cola">
+                            <span>---</span>
+                        </label>
+                        <label for="coca-cola">Cola</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="boisson" id="pepsi">
+                        <label class="neumorphism" for="pepsi">
+                            <span>---</span>
+                        </label>
+                        <label for="pepsi">Pespi</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="boisson" id="hawai">
+                        <label class="neumorphism" for="hawai">
+                            <span>---</span>
+                        </label>
+                        <label for="hawai">Hawai</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="boisson" id="orangina">
+                        <label class="neumorphism" for="orangina">
+                            <span>---</span>
+                        </label>
+                        <label for="orangina">Orangina</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="boisson" id="green-tea">
+                        <label class="neumorphism" for="green-tea">
+                            <span>---</span>
+                        </label>
+                        <label for="green-tea">Green tea</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="boisson" id="fanta">
+                        <label class="neumorphism" for="fanta">
+                            <span>---</span>
+                        </label>
+                        <label for="fanta">Fanta Exotique</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="boisson" id="perrier">
+                        <label class="neumorphism" for="perrier">
+                            <span>---</span>
+                        </label>
+                        <label for="perrier">Perrier</label>
+                    </div>
+                </div>
+            </div>
+            <div class="text-container">
+                <div>
+                    <label for="adresse">
+                        Adresse
+                    </label>
+                    <input required type="text" id="adresse" placeholder="122 rue de monmartr">
+                </div>
+                <div>
+                    <label for="nom">
+                        Nom
+                    </label>
+                    <input required type="text" id="nom" placeholder="Dogan">
+                </div>
+                <div>
+                    <label for="promo">
+                        Code promotion
+                    </label>
+                    <input type="text" id="promo" placeholder="ATABLE12345">
+                </div>
+            </div>
+            <input type="submit" value="Commander">
+            <p class="nocb">Le payement se passe avec le livreur</p>
+        </form>
+    </section>
+
+    <section id="menus" class="other-menu">
+        <div>
+            <h2>Voir les menus</h2>
+            <div>
+                <a class="card" href="../pages/shop-menu1.html">
+                    <img src="../assets/img/kebab-menu2-petit.png" alt="hand holding a kebab">
+                    <p>Pas2sous</p>
+                </a>
+
+                <a class="card" href="../pages/shop-menu3.html">
+                    <img src="../assets/img/kebab-menu3-petit.png" alt="pigeon holding a kebab">
+                    <p>Pigeon lvl 2</p>
+                </a>
+
+                <a class="card" href="../pages/shop-menu4.html">
+                    <img src="../assets/img/kebab-menu4-petit.png" alt="big artist drawing a kebab">
+                    <p>Paris 16ème</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="top-footer">
+            <div class="left-footer">
+                <h3>Dream Kebab</h3>
+                <p>Au lieu de rêver, venez gouter !</p>
+                <div>
+                    <a href="https://www.instagram.com/crouslyon/" target="_blank">
+                        <div class="img-container"><img src="../assets/logo/insta.png" alt="logo instagram"></div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
+                        <div class="img-container"><img src="../assets/logo/discord.png" alt="logo discord"></div>
+                    </a>
+                    <a href="https://twitter.com/Cnous_LesCrous" target="_blank">
+                        <div class="img-container"><img src="../assets/logo/twitter.png" alt="logo twitter"></div>
+                    </a>
+                </div>
+            </div>
+            <a href="https://www.messervices.etudiant.gouv.fr/envole/" target="_blank"><img
+                    src="../assets/logo/crous.png" alt="logo du crous"></a>
+        </div>
+        <div class="footer-trait"></div>
+    </footer>
+</body>
+
+</html>

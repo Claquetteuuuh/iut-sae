@@ -1,0 +1,428 @@
+section.command {
+    margin-top: -80px;
+    min-height: 150vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-image: url("../assets/img/broche-kebab-background.png");
+}
+
+
+#finish-command:checked~form {
+    background-color: blue;
+}
+
+.container {
+    margin-top: 160px;
+    gap: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-img-container {
+    margin-top: -380px;
+    position: relative;
+}
+
+.menu-img-container img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    height: 450px;
+    width: auto;
+    display: none;
+    border-radius: 30px;
+}
+
+input[type="radio"] {
+    display: absolute;
+    position: absolute;
+    opacity: 0;
+}
+
+.light {
+    z-index: -1;
+    background: transparent;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: calc(30vw / 4);
+    filter: blur(250px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff0616;
+}
+
+
+
+#switch1:checked~div.menu-img-container .img1 {
+    display: block;
+}
+
+#switch2:checked~div.menu-img-container .img2 {
+    display: block;
+}
+
+#switch3:checked~div.menu-img-container .img3 {
+    display: block;
+}
+
+#switch1:checked~div.label-container label[for="switch1"] {
+    filter: brightness(.4);
+}
+
+#switch2:checked~div.label-container label[for="switch2"] {
+    filter: brightness(.4);
+}
+
+#switch3:checked~div.label-container label[for="switch3"] {
+    filter: brightness(.4);
+}
+
+
+
+.label-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.label-container label {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.label-container label:hover {
+    filter: brightness(.6);
+}
+
+label img {
+    height: 120px;
+    border-radius: 20px;
+}
+
+.label-container label img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+form {
+    background-color: #E10512;
+    border-radius: 10px;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    margin-top: 160px;
+    transform: translate(-50%, 0);
+    color: white;
+    padding: 4%;
+
+}
+
+form h1 {
+    text-align: center;
+    font-size: clamp(35px, 3vw, 40px);
+    font-weight: 400;
+    font-family: "chalet-newyork", 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form h1 span {
+    font-family: 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+form p {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 65%;
+}
+
+.checkbox-container {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    font-family: 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.checkbox-container h2 {
+    font-size: clamp(14px, 1.5vw, 18px);
+    font-family: 'chalet-newyork', 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+.checkbox-container h2 span {
+    font-weight: 600;
+    font-family: 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.checkbox-container div {
+    margin-top: 20px;
+    font-family: 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.checkbox-container>div>div {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container div input {
+    position: absolute;
+    display: absolute;
+    opacity: 0;
+}
+
+.checkbox-container div .neumorphism span {
+    outline: none;
+    border: none;
+    margin: 0;
+    margin-right: 5px;
+    min-height: 20px;
+    min-width: 20px;
+    border-radius: 7px;
+    background: #E10512;
+    box-shadow: 2px 2px 4px #ab040e,
+        -2px -2px 4px #ff0616;
+}
+span{
+    font-size: 100%;
+    color: transparent;
+}
+
+
+.checkbox-container div input:checked~.neumorphism span {
+    border-radius: 7px;
+    background: #d10210;
+    box-shadow: inset 2px 2px 4px #9b020c,
+        inset -2px -2px 4px #b6020e;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'inter', 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.text-container div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container div input {
+    margin-top: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.696);
+    padding: 10px 5px;
+    background: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    transition: all .3s;
+}
+
+.text-container div input::placeholder {
+    color: rgba(255, 255, 255, 0.502);
+}
+
+.text-container div input:not(:placeholder-shown) {
+    border: 2px solid rgba(0, 255, 0, 0.715);
+}
+
+
+
+form input[type="submit"] {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 30px;
+    background: #E10512 url("../assets/svg/cart-outline.svg") no-repeat center left;
+    background-size: 40px;
+    padding: 20px 30px;
+    padding-left: 57px;
+    border: #ab040e 4px solid;
+    border-top: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.nocb {
+    margin-top: 10px;
+    font-size: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    border-radius: 30px;
+
+    display: grid;
+    place-items: center;
+    grid-template-areas: "main";
+
+    overflow: hidden;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card>* {
+    grid-area: main;
+}
+
+.card>img {
+    border-radius: 30px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform .4s, filter .4s;
+}
+
+.card>p {
+    font-family: 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+
+    transform: opacity .4s, transform .4s;
+}
+
+.card:is(:hover, :focus)>img {
+    transform: scale(1.1);
+    filter: brightness(.4);
+}
+
+.card:is(:hover, :focus)>p {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.other-menu {
+    color: white;
+    background-color: #111;
+    margin-top: -100px;
+    min-height: 50vh;
+    padding: 5%;
+}
+
+.other-menu h2 {
+    position: relative;
+    margin: 40px 0;
+    font-family: 'montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.other-menu h2::before {
+    border-radius: 100px;
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30%;
+    background-color: white;
+    top: 100%;
+    transition: all .3s;
+}
+
+.other-menu h2:hover::before {
+    width: 100%;
+}
+
+.other-menu>div {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.other-menu div div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checkbox-container>div>div label{
+    font-size: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+    form {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section.command {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+
+    }
+
+    .container {
+        bottom: 50%;
+        transform: translate(0, 50%);
+        margin-top: 200px;
+    }
+
+    form {
+        margin-top: 0;
+    }
+
+    .menu-img-container {
+        width: 70%;
+        margin-top: 0px;
+    }
+
+    .menu-img-container img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    .label-container label {
+        width: calc(100%/3);
+    }
+
+
+    .other-menu {
+        padding-top: 150px;
+        min-height: 100vh;
+    }
+
+    .other-menu>div {
+        width: 100%;
+    }
+
+    .other-menu>div>div {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card>img {
+        margin: 20px 0;
+    }
+
+    .card {
+        width: clamp(200px, 70%, 350px);
+    }
+}

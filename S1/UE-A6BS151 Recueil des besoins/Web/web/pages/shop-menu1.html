@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DK | Menu Pas2sous</title>
+    <link rel="shortcut icon" href="../assets/logo/logo-rond.png" type="image/png">
+    <link rel="stylesheet" href="../src/global.css">
+    <link rel="stylesheet" href="../src/header.css">
+    <link rel="stylesheet" href="../src/footer.css">
+    <link rel="stylesheet" href="../src/shop-menus.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/logo/logo-horizontale.png" height="60" alt="Logo dream kebab with crous">
+            </a>
+
+            <ul>
+                <li class="burger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div class="burger-content">
+                        <a class="nav-active" href="#menus">Menu</a>
+                        <a href="../pages/info.html">Information</a>
+                        <a href="../pages/horaires.html">Horaires</a>
+                    </div>
+                </li>
+                <li class="nav-active"><a href="#menus">Menu</a></li>
+                <li><a href="../pages/info.html">Information</a></li>
+                <li><a href="../pages/horaires.html">Horaires</a></li>
+            </ul>
+            <a href="../pages/menu.html"><img src="../assets/svg/caddie.svg" alt="caddie pour commander"></a>
+        </nav>
+    </header>
+    <section class="command">
+
+        <div class="container">
+            <input checked type="radio" name="img-switch" id="switch1">
+            <input type="radio" name="img-switch" id="switch2">
+            <input type="radio" name="img-switch" id="switch3">
+
+            <div class="menu-img-container">
+                <div class="light"></div>
+                <img class="img1 img" src="../assets/img/kebab-menu2.png" alt="Hand holding a kebab">
+                <img class="img2 img" src="../assets/img/kebab-img1.png" alt="Kebab with many thing in">
+            </div>
+
+            <div class="label-container">
+                <label for="switch1">
+                    <img src="../assets/img/kebab-menu2.png" alt="Hand holding a kebab">
+
+                </label>
+                <label for="switch2">
+                    <img src="../assets/img/kebab-img1.png" alt="Kebab with many thing in">
+
+                </label>
+
+            </div>
+        </div>
+        <form>
+            <h1>Menu "Pa<span>s</span>2<span>s</span>ou<span>s</span>" 3<span>€</span></h1>
+            <p>La fin de moi est vraiment compliqué ?
+                Compose ton kebab pour la modeste somme de 3€.</p>
+            <div class="checkbox-container">
+                <div>
+                    <h2>Ingrédient</h2>
+                    <div>
+                        <input type="checkbox" name="kebab" id="kebab">
+                        <label class="neumorphism" for="kebab">
+                            <span>---</span>
+                        </label>
+                        <label for="kebab">Kebab</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="salade" id="salade">
+                        <label class="neumorphism" for="salade">
+                            <span>---</span>
+                        </label>
+                        <label for="salade">Salade</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tomate" id="tomate">
+                        <label class="neumorphism" for="tomate">
+                            <span>---</span>
+                        </label>
+                        <label for="tomate">Tomate</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="oignon" id="oignon">
+                        <label class="neumorphism" for="oignon">
+                            <span>---</span>
+                        </label>
+                        <label for="oignon">Oignon</label>
+                    </div>
+
+                </div>
+                <div>
+                    <h2>
+                        <span>S</span>auce
+                    </h2>
+                    <div>
+                        <input type="radio" name="sauce" id="ketchup">
+                        <label class="neumorphism" for="ketchup">
+                            <span>---</span>
+                        </label>
+                        <label for="ketchup">Ketchup</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="algerienne">
+                        <label class="neumorphism" for="algerienne">
+                            <span>---</span>
+                        </label>
+                        <label for="algerienne">Algerienne</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="biggi">
+                        <label class="neumorphism" for="biggi">
+                            <span>---</span>
+                        </label>
+                        <label for="biggi">Biggi</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="mayonnaise">
+                        <label class="neumorphism" for="mayonnaise">
+                            <span>---</span>
+                        </label>
+                        <label for="mayonnaise">Maness</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="bbq">
+                        <label class="neumorphism" for="bbq">
+                            <span>---</span>
+                        </label>
+                        <label for="bbq">BBQ</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="blanche">
+                        <label class="neumorphism" for="blanche">
+                            <span>---</span>
+                        </label>
+                        <label for="blanche">Blanche</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sauce" id="samourai">
+                        <label class="neumorphism" for="samourai">
+                            <span>---</span>
+                        </label>
+                        <label for="samourai">Samouraï</label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-container">
+                <div>
+                    <label for="adresse">
+                        Adresse
+                    </label>
+                    <input required type="text" id="adresse" placeholder="122 rue de monmartr">
+                </div>
+                <div>
+                    <label for="nom">
+                        Nom
+                    </label>
+                    <input required type="text" id="nom" placeholder="Dogan">
+                </div>
+                <div>
+                    <label for="promo">
+                        Code promotion
+                    </label>
+                    <input type="text" id="promo" placeholder="ATABLE12345">
+                </div>
+            </div>
+            <input type="submit" value="Commander">
+            <p class="nocb">Le payement se passe avec le livreur</p>
+        </form>
+    </section>
+
+    <section id="menus" class="other-menu">
+        <div>
+            <h2>Voir les menus</h2>
+            <div>
+                <a class="card" href="../pages/shop-menu2.html">
+                    <img src="../assets/img/kebab-menu1-petit.png" alt="kebab with french fries in background">
+                    <p>Etudiant</p>
+                </a>
+
+                <a class="card" href="../pages/shop-menu3.html">
+                    <img src="../assets/img/kebab-menu3-petit.png" alt="pigeon holding a kebab">
+                    <p>Pigeon lvl 2</p>
+                </a>
+
+                <a class="card" href="../pages/shop-menu4.html">
+                    <img src="../assets/img/kebab-menu4-petit.png" alt="big artist drawing a kebab">
+                    <p>Paris 16ème</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="top-footer">
+            <div class="left-footer">
+                <h3>Dream Kebab</h3>
+                <p>Au lieu de rêver, venez gouter !</p>
+                <div>
+                    <a href="https://www.instagram.com/crouslyon/" target="_blank">
+                        <div class="img-container"><img src="../assets/logo/insta.png" alt="logo instagram"></div>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">
+                        <div class="img-container"><img src="../assets/logo/discord.png" alt="logo discord"></div>
+                    </a>
+                    <a href="https://twitter.com/Cnous_LesCrous" target="_blank">
+                        <div class="img-container"><img src="../assets/logo/twitter.png" alt="logo twitter"></div>
+                    </a>
+                </div>
+            </div>
+            <a href="https://www.messervices.etudiant.gouv.fr/envole/" target="_blank"><img
+                    src="../assets/logo/crous.png" alt="logo du crous"></a>
+        </div>
+        <div class="footer-trait"></div>
+    </footer>
+</body>
+
+</html>
