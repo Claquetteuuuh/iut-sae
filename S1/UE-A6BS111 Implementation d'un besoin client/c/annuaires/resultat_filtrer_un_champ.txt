@@ -1,0 +1,15 @@
+
+Barbier,Agathe,6200,NICE,04.00.15.25.44,agathe.barbier@server.fr,comptable
+Caron,Augustin-Adrien,75010,PARIS,01.59.27.95.01,augustin-adrien.caron@server.fr,comptable
+Chauvet,Charles,93200,SAINT-DENIS,01.94.22.17.15,charles.chauvet@server.fr,comptable
+Germain,Gregoire,44100,NANTES,02.78.47.84.22,gregoire.germain@server.fr,comptable
+Humbert,Isabelle,6200,NICE,04.38.64.56.37,isabelle.humbert@server.fr,comptable
+Nguyen,Dorothee,,,04.62.12.84.97,dorothee.nguyen@server.fr,comptable
+Nicolas,Celina,75009,PARIS,01.99.47.29.02,celina.nicolas@server.fr,comptable
+Pelletier,Marianne,,,05.49.47.22.45,marianne.pelletier@server.fr,comptable
+Ribeiro,Danielle,13003,MARSEILLE,04.60.93.24.97,danielle.ribeiro@server.fr,comptable
+Salmon-Jacquot,Nicole,75116,PARIS,01.03.89.16.08,nicole.salmon-jacquot@server.fr,comptable
+Vidal,Andre,,,04.98.29.99.15,andre.vidal@server.fr,comptable
+Weber,Antoine,,,04.16.69.44.75,antoine.weber@server.fr,comptable
+de Chevalier,Martine,33000,BORDEAUX,05.08.40.28.82,martine.de-chevalier@server.fr,comptable
+du Ramos,Antoinette,13001,MARSEILLE,04.87.83.50.83,antoinette.du-ramos@server.fr,comptable

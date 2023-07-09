@@ -1,0 +1,67 @@
+
+Gosselin,Emmanuel-Olivier,6200,NICE,04.81.34.90.18,emmanuel-olivier.gosselin@server.fr,acteur
+Gay,Hugues,6200,NICE,04.20.00.47.15,hugues.gay@server.fr,avocat
+Gregoire,Isaac,6200,NICE,04.64.14.55.49,isaac.gregoire@server.fr,chauffeur
+Germain,,6200,NICE,04.68.05.38.94,anais.germain@server.fr,
+Gallet,William,13001,MARSEILLE,04.55.19.78.54,william.gallet@server.fr,banquier
+Goncalves,Isabelle,13002,MARSEILLE,04.81.83.81.94,isabelle.goncalves@server.fr,
+de Gonzalez,Edouard,13004,MARSEILLE,04.81.79.25.48,edouard.de-gonzalez@server.fr,
+Garnier,Celine,13008,MARSEILLE,04.33.22.42.61,celine.garnier@server.fr,enseignant
+Gillet,Alexandrie-Constance,13008,MARSEILLE,04.50.15.63.01,alexandrie-constance.gillet@server.fr,militaire
+Jacquot-Guillet,Benoit,13009,MARSEILLE,04.29.32.88.95,benoit.jacquot-guillet@server.fr,militaire
+Gillet-Vincent,Marc,13011,MARSEILLE,04.62.65.72.97,marc.gillet-vincent@server.fr,boulanger
+Jacques du Guerin, ,13011,MARSEILLE,04.11.76.33.40,henriette.jacques-du-guerin@server.fr,
+Guillaume,Emile,13013,MARSEILLE,04.75.11.66.52,emile.guillaume@server.fr,agriculteur
+Parent-Germain,Dominique,13013,MARSEILLE,04.15.32.22.39,dominique.parent-germain@server.fr,journaliste
+Giraud,Sebastien,13013,MARSEILLE,04.99.21.37.67,sebastien.giraud@server.fr,technicien
+Gaudin,Andre-Marcel,13014,MARSEILLE,04.91.93.25.46,andre-marcel.gaudin@server.fr,banquier
+Baudry-Giraud,Christine,13015,MARSEILLE,04.53.78.94.08,christine.baudry-giraud@server.fr,
+Garnier,,13016,MARSEILLE,04.94.06.58.33,hugues.garnier@server.fr,architecte
+Guyot,Lorraine,31000,TOULOUSE,05.62.69.03.78,lorraine.guyot@server.fr,
+Gros,,31000,TOULOUSE,05.69.14.91.15,alfred-christophe.gros@server.fr,
+de la Gimenez,Marguerite,31200,TOULOUSE,05.13.46.08.54,marguerite.de-la-gimenez@server.fr,architecte
+Huet-Gregoire,Emile,31400,TOULOUSE,05.13.35.71.12,emile.huet-gregoire@server.fr,journaliste
+Andre-Gerard,Antoine,34070,MONTPELLIER,04.28.86.50.02,antoine.andre-gerard@server.fr,
+Gallet Le Lacroix,Cecile,34090,MONTPELLIER,04.74.86.66.19,cecile.gallet-le-lacroix@server.fr,architecte
+Guerin,Gerard,35700,RENNES,02.75.57.95.88,gerard.guerin@server.fr,
+Guillot,Claire,38000,GRENOBLE,04.10.41.33.52,claire.guillot@server.fr,banquier
+Gregoire,Xavier,38000,GRENOBLE,04.65.22.52.68,xavier.gregoire@server.fr,
+de Gaillard,Nathalie,44000,NANTES,02.84.34.01.43,nathalie.de-gaillard@server.fr,architecte
+Germain,Gregoire,44100,NANTES,02.78.47.84.22,gregoire.germain@server.fr,comptable
+Guillot-Bertrand,Pauline,67100,STRASBOURG,03.35.78.08.92,pauline.guillot-bertrand@server.fr,boulanger
+Guerin,Christophe,69003,LYON,04.95.52.08.72,christophe.guerin@server.fr,ouvrier
+de la Giraud, ,69004,LYON,04.60.21.83.68,laurent.de-la-giraud@server.fr,agriculteur
+Gilles du Georges,Laure,69005,LYON,04.45.30.70.92,laure.gilles-du-georges@server.fr,acteur
+Gaillard,Benoit,69008,LYON,04.17.76.08.69,benoit.gaillard@server.fr,
+Gosselin du Ferrand,Susanne,69009,LYON,04.19.28.49.16,susanne.gosselin-du-ferrand@server.fr,enseignant
+Gaudin,Celine,69100,VILLEURBANNE,04.86.90.53.37,celine.gaudin@server.fr,
+Gilbert,Thomas,69410,CHAMPAGNE-AU-MONT-D'OR,04.29.38.56.41,thomas.gilbert@server.fr,
+Gimenez,,75001,PARIS,01.04.18.28.88,laure.gimenez@server.fr,medecin
+Gimenez,Anastasie-Alice,75003,PARIS,01.24.57.14.68,anastasie-alice.gimenez@server.fr,footballeur
+Guichard,Xavier,75006,PARIS,01.41.53.26.74,xavier.guichard@server.fr,boulanger
+Gauthier,Sebastien,75006,PARIS,01.71.95.69.59,sebastien.gauthier@server.fr,cuisinier
+Gros-Adam,Laetitia,75014,PARIS,01.16.10.59.70,laetitia.gros-adam@server.fr,acteur
+Gonzalez,Antoinette,75014,PARIS,01.47.52.54.55,antoinette.gonzalez@server.fr,agriculteur
+Germain,Aime-Thibaut,75017,PARIS,01.07.82.58.28,aime-thibaut.germain@server.fr,acteur
+Gaillard du Gay,Christophe,75019,PARIS,01.23.00.16.32,christophe.gaillard-du-gay@server.fr,avocat
+Georges du Raymond,Georges,75020,PARIS,01.12.11.57.31,georges.georges-du-raymond@server.fr,ouvrier
+Neveu du Gillet,Michelle,75020,PARIS,01.27.31.05.96,michelle.neveu-du-gillet@server.fr,
+Poulain-Garnier,Margaud,76610,LE HAVRE,02.45.71.93.99,margaud.poulain-garnier@server.fr,
+Goncalves-Masse,Sebastien,83000,TOULON,04.21.61.57.07,sebastien.goncalves-masse@server.fr,acteur
+Bazin de Gilbert,Adrienne,	, ,04.81.38.58.77,adrienne.bazin-de-gilbert@server.fr,barman
+Grenier-Aubry,, ,,02.86.90.17.43,laurent.grenier-aubry@server.fr,enseignant
+Gros,Margot,,,01.25.42.04.03,margot.gros@server.fr,avocat
+Guerin,Augustin-Eugene,,,05.78.75.16.57,augustin-eugene.guerin@server.fr,enseignant
+Dupre-Giraud,Jules,,,01.93.25.54.48,jules.dupre-giraud@server.fr,enseignant
+Guyon,Thomas,,,04.54.25.97.14,thomas.guyon@server.fr,footballeur
+Guilbert,Jeanne,,,04.12.69.05.08,jeanne.guilbert@server.fr,informaticien
+Giraud,Alex-Elodie,,,02.82.02.61.96,alex-elodie.giraud@server.fr,
+Guilbert,Antoine-Roland,,,04.58.98.75.63,antoine-roland.guilbert@server.fr,
+Guyon-Marchand,Caroline,,,01.61.42.60.17,caroline.guyon-marchand@server.fr,
+Grenier,Chantal,,,04.46.96.78.82,chantal.grenier@server.fr,
+Guerin,Gerard,,,02.91.33.04.55,gerard.guerin@server.fr,
+Germain,Marc,,,04.43.76.38.17,marc.germain@server.fr,
+Cordier-Guerin,Pierre,,,01.79.61.61.09,pierre.cordier-guerin@server.fr,
+Guillet,Sebastien,,,04.90.34.92.94,sebastien.guillet@server.fr,
+Gilbert de Antoine,Susanne,,,01.12.59.77.00,susanne.gilbert-de-antoine@server.fr,
+Gallet,,,,04.51.48.34.85,antoinette.gallet@server.fr,
